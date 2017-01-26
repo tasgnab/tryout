@@ -509,7 +509,7 @@
 		$(document).ready(function() {
 			$('#banner').unslider({
 				infinite: true,
-				autoplay: false
+				autoplay: true
 			});
 		});
 	</script>
