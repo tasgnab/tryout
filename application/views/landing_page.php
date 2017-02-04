@@ -9,7 +9,8 @@
 	<?php include_once('common/nav.php'); ?>
 
 	<header>
-		<div class="container">
+		<div class="row">
+			<div class="container">
 				<div class="col-lg-12">
 					<div id="banner">
 						<ul>
@@ -52,7 +53,8 @@
 						</ul>
 					</div>
 				</div>
-		</div>
+			</div>
+		</div> 
 	</header>
 	<!-- Portfolio Grid Section -->
 	<section id="portfolio">
@@ -509,7 +511,7 @@
 		$(document).ready(function() {
 			$('#banner').unslider({
 				infinite: true,
-				autoplay: true
+				autoplay: false
 			});
 		});
 	</script>
