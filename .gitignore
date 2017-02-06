@@ -47,3 +47,5 @@ Temporary Items
 .apdisk
 application/logs/log-2017-01-26.php
 *.log
+
+vendor/

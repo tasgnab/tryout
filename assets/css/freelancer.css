@@ -312,6 +312,9 @@ header .intro-text .skills {
 .panel-pricing img{
   cursor: pointer;
 }
+.background-blue{
+  background: #31708f;
+}
 section {
   padding: 50px 0;
 }

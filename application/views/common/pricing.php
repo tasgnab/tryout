@@ -6,7 +6,7 @@
 				<div class="panel panel-danger panel-pricing">
 					<div class="panel-heading">
 						<!-- <i class="fa fa-desktop"></i> -->
-						<img src="<?php echo base_url(); ?>assets/img/sd.png">
+						<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><img src="<?php echo base_url(); ?>assets/img/sd.png"></a>
 						<h3>Plan 1</h3>
 					</div>
 					<div class="panel-body text-center">
@@ -29,7 +29,7 @@
 				<div class="panel panel-primary panel-pricing">
 					<div class="panel-heading">
 						<!-- <i class="fa fa-desktop"></i> -->
-                        <img src="<?php echo base_url(); ?>assets/img/smp.png">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal"><img src="<?php echo base_url(); ?>assets/img/smp.png"></a>
 						<h3>Plan 2</h3>
 					</div>
 					<div class="panel-body text-center">
@@ -52,7 +52,7 @@
 				<div class="panel panel-default panel-pricing">
 					<div class="panel-heading">
 						<!-- <i class="fa fa-desktop"></i> -->
-                        <img src="<?php echo base_url(); ?>assets/img/sma.png">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"><img src="<?php echo base_url(); ?>assets/img/sma.png"></a>
 						<h3>Plan 3</h3>
 					</div>
 					<div class="panel-body text-center">
@@ -75,7 +75,7 @@
 				<div class="panel panel-success panel-pricing">
 					<div class="panel-heading">
 						<!-- <i class="fa fa-desktop"></i> -->
-                        <img src="<?php echo base_url(); ?>assets/img/smk.png">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal"><img src="<?php echo base_url(); ?>assets/img/smk.png"></a>
 						<h3>Plan 4</h3>
 					</div>
 					<div class="panel-body text-center">
