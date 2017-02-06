@@ -7,55 +7,8 @@
 
 	<!-- Navigation -->
 	<?php include_once('common/nav.php'); ?>
-
-	<header>
-		<div class="row">
-			<div class="container">
-				<div class="col-lg-12">
-					<div id="banner">
-						<ul>
-							<li>
-								<div class="row row-eq-height ">
-									<div class="col-sm-6 unslider-text">
-										<h1><span>E</span>-SHOPPER</h1>
-										<h2>Free E-Commerce Template</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									</div>
-									<div class="col-sm-6">
-										<img src="<?php base_url(); ?>upload\images\slider\girl1.jpg" class="img-responsive unslider-img right" alt="" />
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="row row-eq-height ">
-									<div class="col-sm-6 unslider-text">
-										<h1><span>E</span>-SHOPPER</h1>
-										<h2>Free E-Commerce Template</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									</div>
-									<div class="col-sm-6">
-										<img src="<?php base_url(); ?>upload\images\slider\girl2.jpg" class="img-responsive unslider-img right" alt="" />
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="row row-eq-height ">
-									<div class="col-sm-6">
-										<img src="<?php base_url(); ?>upload\images\slider\girl3.jpg" class="img-responsive unslider-img left" alt="" />
-									</div>
-									<div class="col-sm-6 unslider-text">
-										<h1><span>E</span>-SHOPPER</h1>
-										<h2>Free E-Commerce Template</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div> 
-	</header>
+	<!-- Slider -->
+	<?php include_once('common/slider.php'); ?>
 	<!-- Portfolio Grid Section -->
 	<section id="portfolio">
 		<div class="container">
@@ -506,15 +459,8 @@
 	<script src="<?php echo base_url(); ?>assets/js/freelancer.js"></script>
 
 	<!-- unslider -->
-	<script src="<?php echo base_url(); ?>assets/unslider/js/unslider.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#banner').unslider({
-				infinite: true,
-				autoplay: false
-			});
-		});
-	</script>
+	<script src="<?php echo base_url(); ?>vendor/lightslider/dist/js/lightslider.js"></script>
+	
 </body>
 
 </html>

@@ -21,12 +21,6 @@ a.active {
   color: #18BC9C;
   outline: none;
 }
-.unslider a,
-.unslider a:hover,
-.unslider a:focus{
-  color: white;
-  outline: none;
-}
 h1,
 h2,
 h3,
@@ -109,68 +103,7 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-/*.navbar-custom{
-  background: #31708f;
-  height: 72px;
-  font-weight: 700;
-  border: none;
-}
-.navbar-custom .navbar-header{
-  height: 72px;
-}
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-brand:hover{
-  color: white;
-  font-weight: 700;
-}
-.navbar-custom .navbar-brand img{
-  max-height: 50px;
-  display: inline-block;
-  margin-right: 10px;
-}
-.navbar-custom .navbar-nav > li > a,
-.navbar-custom .navbar-nav > li > a:hover{
-  color: white;
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 16px
-}
-.navbar-custom .navbar-collapse > ul{
-  margin: 10px 10px;
-}
-.navbar-custom .navbar-nav.navbar-right > li > a{
-  border: solid white 1px;
-  display: table-cell;
-}
-#mainNav.navbar-custom .navbar-collapse.collapse.in{
-  background-color: #31708f;
-}
-#mainNav.navbar-custom.affix{
-  background-color: white;
-}
-.navbar-custom.affix .navbar-nav > li > a,
-.navbar-custom.affix .navbar-nav > li > a:hover{
-  color: #777;
-}
-.navbar-custom.affix .navbar-nav.navbar-right > li > a{
-  border: solid #777 1px;
-}
-.navbar-custom.affix .navbar-collapse.collapse.in{
-  background:; white;
-}
-.navbar-custom .navbar-toggle,
-.navbar-custom .navbar-toggle:hover{
-  top: 7.5px;
-  right: 7.5px;
-  background: #31708f;
-  color: white;
-  border: solid white 1px;
-}
-.navbar-custom.affix .navbar-toggle,
-.navbar-custom.affix .navbar-toggle:hover{
-  background: white;
-  color: #777;
-  border: solid #777 1px;
-}*/
+/*CSS NavBar*/
 .navbar-custom {
   background: #31708f;
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -181,84 +114,25 @@ header .intro-text .skills {
 .navbar-custom .navbar-header{
   height: 72px;
 }
-.navbar-custom.affix {
-  background: white
+.navbar-custom .navbar-brand{
+  padding: 10px 0;
 }
 .navbar-custom .navbar-brand img{
   max-height: 50px;
   max-width: 50px;
 }
-.navbar-custom .navbar-brand{
-  padding: 10px 0;
-}
 .navbar-custom a:focus {
   outline: none;
-}
-.navbar-custom .navbar-brand {
-  color: white;
-}
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
-  color: white;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
-  background-color: #31708f
-}
-.navbar-custom.affix .navbar-nav li a {
-  color: #777;
-  background-color: white
+  color: #eee;
+  background: transparent;
 }
 .navbar-custom .navbar-collapse {
-  background-color: #31708f
-}
-.navbar-custom.affix .navbar-collapse {
-  background-color: white
-}
-.navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
-  outline: none;
-}
-.navbar-custom .navbar-nav li a:focus,
-.navbar-custom .navbar-nav li a:active {
-  color: white;
-}
-.navbar-custom .navbar-nav li.active a {
-  border: solid #777 1px;
-  border-radius: 6px;
-}
-.navbar-custom .navbar-nav li.active a:hover,
-.navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
-  border: solid #777 1px;
-  border-radius: 6px;
-}
-.navbar-custom .navbar-toggle {
-  top: 10px;
-  color: white;
-  text-transform: uppercase;
-  font-size: 10px;
-  border-color: white;
-}
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-  background-color: #31708f;
-  color: white;
-  border-color: #FFF;
-}
-.navbar-custom.affix .navbar-toggle {
-  color: #777;
-  border-color: #777;
-}
-.navbar-custom.affix .navbar-toggle:hover,
-.navbar-custom.affix .navbar-toggle:focus {
-  background-color: white;
-  border-color: #777;
+  background: #31708f;
 }
 .navbar-custom .navbar-collapse ul{
   padding: 10px;
@@ -267,8 +141,55 @@ header .intro-text .skills {
   border: solid white 1px;
   display: table-cell;
 }
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus {
+  color: #ddd;
+}
+.navbar-custom .navbar-nav li.active a {
+  background: transparent;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  background: transparent;
+}
+.navbar-custom .navbar-toggle {
+  top: 10px;
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #31708f;
+  color: #ddd;
+  border-color: #FFF;
+}
+.navbar-custom.affix {
+  background: #eee
+}
+.navbar-custom.affix .navbar-nav li a {
+  color: #31708f;
+}
+.navbar-custom.affix .navbar-nav li a:hover,
+.navbar-custom.affix .navbar-nav li a:focus {
+  color: #31708f;
+}
+.navbar-custom.affix .navbar-collapse {
+  background: #eee;
+}
+.navbar-custom.affix .navbar-toggle {
+  color: #31708f;
+  border-color: #31708f;
+}
+.navbar-custom.affix .navbar-toggle:hover,
+.navbar-custom.affix .navbar-toggle:focus {
+  background: #eee;
+  border-color: #31708f;
+}
 .navbar-custom.affix .navbar-right li a{
-  border: solid #777 1px;
+  border: solid #31708f 1px;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -292,6 +213,64 @@ header .intro-text .skills {
     letter-spacing: 1px;
   }
 }
+/*CSS Slider*/
+#landing-slider{
+  padding-top: 72px;
+  color: #eee;
+}
+#landing-slider .container-fluid{
+  padding: 0;
+  background: #31708f
+}
+#landing-slider .item .col-md-12{
+  padding: 0;
+}
+.carousel-inner img{
+  height: 100%;
+  position: relative;
+  float: right
+}
+.carousel-inner h2{
+  position: absolute; 
+  top: 100px; 
+  left: 50px; 
+  width: 100%;
+}
+.carousel-inner p{
+  position: absolute; 
+  line-height: 20px;
+  top: 150px; 
+  left: 50px; 
+  width: 60%;
+  padding-right: 60px;
+}
+.carousel-inner a{
+  position: relative; 
+  bottom: 50px; 
+  left: 50px;
+  color: #eee;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+}
+.carousel-inner a span{
+  padding: 10px;
+  border: solid #eee 1px;
+  background: #31708f
+}
+.carousel-inner a:hover span,
+.carousel-inner a:focus span{
+  background: #333;
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
 section {
   padding: 50px 0;
 }
@@ -302,14 +281,6 @@ section h2 {
 section.success {
   background: #18BC9C;
   color: white;
-}
-@media (max-width: 767px) {
-  section {
-    padding: 75px 0;
-  }
-  section.first {
-    padding-top: 75px;
-  }
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;

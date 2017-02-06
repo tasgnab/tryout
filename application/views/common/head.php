@@ -8,7 +8,7 @@
 	<!-- Bootstrap Core CSS -->
 	<link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 	<!-- Unslider CSS -->
-	<link href="<?php echo base_url(); ?>assets/unslider/scss/unslider.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>vendor/lightslider/dist/css/lightslider.css" rel="stylesheet">
 	<!-- Funky Radio CSS -->
 	<link href="<?php echo base_url(); ?>assets/css/funkyradio.css" rel="stylesheet">
 	<!-- Theme CSS -->
