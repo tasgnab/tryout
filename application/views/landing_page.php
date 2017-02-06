@@ -9,6 +9,8 @@
 	<?php include_once('common/nav.php'); ?>
 	<!-- Slider -->
 	<?php include_once('common/slider.php'); ?>
+	<!-- Pricing -->
+	<?php include_once('common/pricing.php'); ?>
 	<!-- Portfolio Grid Section -->
 	<section id="portfolio">
 		<div class="container">
@@ -443,24 +445,20 @@
 	</div>
 
 	<!-- jQuery -->
-	<script src="<?php echo base_url(); ?>assets/jquery/jquery.js"></script>
+	<script src="<?php echo base_url(); ?>vendor/jquery/dist/jquery.js"></script>
 
 	<!-- Bootstrap Core JavaScript -->
-	<script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.js"></script>
+	<script src="<?php echo base_url(); ?>vendor/bootstrap/dist/js/bootstrap.js"></script>
 
 	<!-- Plugin JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js"></script>
+	<script src="<?php echo base_url(); ?>vendor/jquery.easing/jquery.easing.js"></script>
 
 	<!-- Contact Form JavaScript -->
-	<script src="<?php echo base_url(); ?>assets/js/jqBootstrapValidation.js"></script>
+	<script src="<?php echo base_url(); ?>vendor/bootstrap.validation/jqBootstrapValidation.js"></script>
 	<script src="<?php echo base_url(); ?>assets/js/contact_me.js"></script>
 
 	<!-- Theme JavaScript -->
 	<script src="<?php echo base_url(); ?>assets/js/freelancer.js"></script>
-
-	<!-- unslider -->
-	<script src="<?php echo base_url(); ?>vendor/lightslider/dist/js/lightslider.js"></script>
-	
 </body>
 
 </html>

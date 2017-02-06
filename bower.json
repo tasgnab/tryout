@@ -1,0 +1,29 @@
+{
+  "name": "tryout",
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "admin",
+    "bootstrap",
+    "theme",
+    "frontend",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "documentation"
+  ],
+  "devDependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.6.1",
+	"timeCircle" : "https://github.com/wimbarelds/TimeCircles.git#1.5.3",
+	"jquery.easing" : "https://github.com/gdsmith/jquery.easing.git#1.4.1",
+	"bootstrap.validation" : "https://github.com/ReactiveRaven/jqBootstrapValidation.git#1.3.6"
+  },
+  "resolutions": {
+    "jquery": "^2.2.3"
+  }
+}

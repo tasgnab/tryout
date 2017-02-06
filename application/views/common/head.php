@@ -6,19 +6,16 @@
 	<meta name="author" content="">
 	<title>Gramedia Try Out</title>
 	<!-- Bootstrap Core CSS -->
-	<link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.css" rel="stylesheet">
-	<!-- Unslider CSS -->
-	<link href="<?php echo base_url(); ?>vendor/lightslider/dist/css/lightslider.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url(); ?>vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 	<!-- Funky Radio CSS -->
 	<link href="<?php echo base_url(); ?>assets/css/funkyradio.css" rel="stylesheet">
 	<!-- Theme CSS -->
 	<link href="<?php echo base_url(); ?>assets/css/freelancer.css" rel="stylesheet">
 	<!-- Timer Circle CSS -->
-	<link href="<?php echo base_url(); ?>assets/timecircles/css/TimeCircles.css" rel="stylesheet">     
-	<!-- Custom Fonts -->
-	<link href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+	<link href="<?php echo base_url(); ?>vendor/timeCircle/inc/TimeCircles.css" rel="stylesheet">     
 </head>
