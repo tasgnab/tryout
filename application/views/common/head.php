@@ -14,8 +14,11 @@
 	<link href="<?php echo base_url(); ?>vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 	<!-- Funky Radio CSS -->
 	<link href="<?php echo base_url(); ?>assets/css/funkyradio.css" rel="stylesheet">
+	<!-- Timer Circle CSS -->
+	<link href="<?php echo base_url(); ?>vendor/timeCircle/inc/TimeCircles.css" rel="stylesheet">   
+	<!-- Vertical Accordion CSS -->
+	<link href="<?php echo base_url(); ?>vendor/vaccordion/css/vaccordion.css" rel="stylesheet">   
 	<!-- Theme CSS -->
 	<link href="<?php echo base_url(); ?>assets/css/freelancer.css" rel="stylesheet">
-	<!-- Timer Circle CSS -->
-	<link href="<?php echo base_url(); ?>vendor/timeCircle/inc/TimeCircles.css" rel="stylesheet">     
+	  
 </head>

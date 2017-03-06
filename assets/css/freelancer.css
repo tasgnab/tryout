@@ -6,6 +6,7 @@
 body {
   font-family: 'Montserrat','Roboto', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  color: #eee;
 }
 p {
   font-size: 20px;
@@ -316,16 +317,70 @@ header .intro-text .skills {
   background: #31708f;
 }
 section {
-  padding: 50px 0;
+  padding: 0 0 50px 0;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
 }
-section.success {
-  background: #18BC9C;
-  color: white;
+
+
+#feature .container-fluid{
+  padding: 0;
 }
+
+#feature .container{
+  max-width: 1024px !important;
+  
+}
+
+#featuresd{
+  background: url(../img/box_sd.png) no-repeat center center;
+  height: 380px;
+  right: 0;
+  left: 0;
+}
+#featuresmp{
+  background: url(../img/box_smp.png) no-repeat center center;
+  height: 380px;
+  right: 0;
+  left: 0;
+}
+#featuresma{
+  background: url(../img/box_sma.png) no-repeat center center;
+  height: 380px;
+  right: 0;
+  left: 0;
+}
+#featurecollege{
+  background: url(../img/4.jpg) no-repeat center center;
+  height: 400px;
+  right: 0;
+  left: 0;
+}
+
+.box-sd{
+  position: relative;
+  z-index: 500;
+}
+.box-smp{
+  position: relative;
+  z-index: 400;
+  margin-top: -25px
+}
+.box-sma{
+  position: relative;
+  z-index: 300;
+  margin-top: -25px
+}
+.box-college{
+  position: relative;
+  z-index: 200;
+}
+section#about{
+  padding-top: 50px;
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -423,38 +478,50 @@ section.success {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+
 footer {
-  color: white;
+  color: #eee;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
-footer h3 {
-  margin-bottom: 30px;
+footer h4 { 
+  color: white;
+  text-transform: none;
+  display: inline;
+  padding-right: 10px;
+}
+footer .footer-header{
+  margin-bottom: 15px;
+}
+footer p {
+  font-size: 1em;
+}
+footer a{
+  color: #eee;
+}
+footer a:hover,
+footer a:focus,
+footer a:active{
+  text-decoration: none;
+  color: #ddd;
+}
+footer ul{
+  list-style: none;
+  padding: 0;
 }
 footer .footer-above {
-  padding-top: 50px;
-  background-color: #2C3E50;
+  padding-top: 30px;
+  background-color: #31708f;
+  padding-bottom: 50px;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
-  padding: 25px 0;
+  padding: 5px 0;
   background-color: #233140;
 }
-.btn-outline {
-  color: white;
+footer .list-inline .fa{
   font-size: 20px;
-  border: solid 2px white;
-  background: transparent;
-  transition: all 0.3s ease-in-out;
-  margin-top: 15px;
-}
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-  color: #18BC9C;
-  background: white;
-  border: solid 2px white;
 }
 .btn-primary {
   color: white;
@@ -582,6 +649,7 @@ fieldset[disabled] .btn-success.active {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+  color: #666;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;

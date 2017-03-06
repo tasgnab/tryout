@@ -24,7 +24,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="page-scroll">
-					<a>Masuk</a>
+					<a href="">Masuk</a>
 				</li>
 			</ul>
 		</div>
